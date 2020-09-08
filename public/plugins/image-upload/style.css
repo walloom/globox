@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/07/2020, 10:49:39 AM
+    Author     : yyepes
+*/
+
+.image-upload{
+    background: #F4F6F9;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    min-height: 300px;
+    width: 100%;
+
+}
+
+.image-upload .empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem 2rem;
+
+}
+
+.image-upload .empty i{
+    font-size: 6rem;
+    color: #ced4da;
+}
+
+.image-upload .with-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    object-fit: cover;
+    min-height: 300px;
+}
+
+.image-upload .with-image img{
+    object-fit: cover;
+    width: 100%;
+    min-height: 300px;
+    border-radius: 10px;
+}
